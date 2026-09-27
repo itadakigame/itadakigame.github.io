@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>頂 ITADAKI サポート / Support</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Dela+Gothic+One&display=swap">
+<style>
+:root{
+  --bg:#f5f6fa; --paper:#ffffff; --ink:#1b2340; --sub:#5a6380; --line:#dfe3ee;
+  --navy:#1d2a55; --gold:#e8b21c; --gold-ink:#8a6300;
+  --font:"BIZ UDPGothic","Hiragino Sans","Yu Gothic",system-ui,sans-serif;
+  --display:"Dela Gothic One","Hiragino Sans",sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#10152b; --paper:#161d38; --ink:#e8ebf5; --sub:#9aa3c0; --line:#2a3358;
+    --navy:#0b1024; --gold:#f2c23a; --gold-ink:#f2c23a;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#10152b; --paper:#161d38; --ink:#e8ebf5; --sub:#9aa3c0; --line:#2a3358;
+  --navy:#0b1024; --gold:#f2c23a; --gold-ink:#f2c23a;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:15px;line-height:1.85;padding:0 16px;padding-block:0 48px}
+.wrap{max-width:720px;margin:0 auto}
+header{background:var(--navy);color:#fff;margin:0 -16px;padding:36px 16px 28px}
+header .in{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:6px}
+.logo{font-family:var(--display);font-size:34px;letter-spacing:.04em;line-height:1.2}
+.logo span{color:var(--gold);font-size:16px;letter-spacing:.2em;margin-left:10px;vertical-align:middle}
+header p{margin:0;color:#c9d0e8;font-size:14px}
+nav{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+nav a{color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:4px 14px;font-size:13px}
+nav a:hover,nav a:focus-visible{background:rgba(255,255,255,.12);outline:none}
+section.lang{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:28px clamp(18px,4vw,36px);margin-top:28px}
+h1{font-size:22px;margin:0 0 4px;text-wrap:balance}
+.date{color:var(--sub);font-size:13px;margin:0 0 18px}
+h2{font-size:16px;margin:28px 0 6px;display:flex;gap:10px;align-items:baseline}
+h2 b{color:var(--gold-ink);font-variant-numeric:tabular-nums;font-size:14px}
+p,li{max-width:65ch}
+p{margin:6px 0}
+ul{margin:6px 0;padding-left:1.3em}
+li{margin:2px 0}
+a{color:inherit;text-decoration-color:var(--gold);text-underline-offset:3px}
+.note{background:var(--bg);border-left:3px solid var(--gold);padding:10px 14px;border-radius:4px;margin:10px 0;font-size:14px}
+.contact{font-weight:700;user-select:all;word-break:break-all}
+footer{color:var(--sub);font-size:12px;text-align:center;margin-top:28px}
+
+.site-nav a{margin-right:0}
+.site-nav a[aria-current]{background:rgba(255,255,255,.18)}
+.links{display:grid;gap:10px;margin-top:14px}
+.links a{display:block;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:12px 16px;text-decoration:none;font-weight:700}
+.links .soon{display:block;border:1px dashed var(--line);border-radius:8px;padding:12px 16px;font-weight:700;color:var(--sub)}
+.links a small,.links .soon small{display:block;font-weight:400;color:var(--sub);font-size:13px}
+dt{font-weight:700;margin-top:16px}
+dd{margin:4px 0 0;max-width:65ch}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="in">
+    <div class="logo">頂<span>ITADAKI</span></div>
+    <p>サポート / Support</p>
+    <nav class="site-nav"><a href="/">トップ</a><a href="/privacy/">プライバシーポリシー</a><a href="/support/" aria-current="page">サポート</a><a href="#en">English</a></nav>
+  </div>
+</header>
+
+<div class="wrap">
+
+<section class="lang" id="ja" lang="ja">
+  <h1>サポート</h1>
+  <p>「頂 - ITADAKI -」についてのご質問・不具合のご報告は、下のメールアドレスまでお送りください。個人で開発しているため、お返事に数日いただくことがあります。</p>
+  <p class="contact"><a href="mailto:itadaki.eijo.games@gmail.com">itadaki.eijo.games@gmail.com</a></p>
+  <div class="note">不具合のときは、お使いの機種（例：iPhone 15）、iOS のバージョン、どの画面で何が起きたかを書いていただけると助かります。</div>
+
+  <h2><b>Q</b>よくある質問</h2>
+  <dl>
+    <dt>記録を消したい</dt>
+    <dd>ゲームの「設定」→「記録をすべて消す」で消せます。アプリを削除しても消えます。</dd>
+    <dt>機種変更で記録を引き継げますか</dt>
+    <dd>記録は端末の中にだけ保存しているため、別の端末へは引き継げません。</dd>
+    <dt>広告が流れない</dt>
+    <dd>通信状態をご確認ください。iPhone の「スクリーンタイム」でWebサイトの制限をしていると、広告が読み込めないことがあります。</dd>
+    <dt>広告を見なくても遊べますか</dt>
+    <dd>はい。広告は「続ける」「旗+1」「おためし」を自分で選んだときだけ流れます。選ばなければ広告なしで遊べます。</dd>
+    <dt>トラッキングの許可を変えたい</dt>
+    <dd>iPhone の「設定」→「プライバシーとセキュリティ」→「トラッキング」から変えられます。許可しなくても、ゲームはすべて遊べます。</dd>
+  </dl>
+</section>
+
+<section class="lang" id="en" lang="en">
+  <h1>Support</h1>
+  <p>For questions or bug reports about ITADAKI, please email us at the address below. The game is made by an independent developer, so replies may take a few days.</p>
+  <p class="contact"><a href="mailto:itadaki.eijo.games@gmail.com">itadaki.eijo.games@gmail.com</a></p>
+  <div class="note">For bug reports, please include your device model (for example, iPhone 15), your iOS version, and what happened on which screen.</div>
+
+  <h2><b>Q</b>FAQ</h2>
+  <dl>
+    <dt>How do I erase my records?</dt>
+    <dd>Use "Erase all records" in the game's Settings, or delete the app.</dd>
+    <dt>Can I move my records to a new device?</dt>
+    <dd>Records are stored only on your device, so they cannot be transferred.</dd>
+    <dt>Ads do not play</dt>
+    <dd>Check your connection. If Screen Time restricts websites on your iPhone, ads may fail to load.</dd>
+    <dt>Can I play without watching ads?</dt>
+    <dd>Yes. Ads play only when you choose "Continue", "Flag+1", or "Try". Otherwise you can play with no ads.</dd>
+    <dt>How do I change the tracking permission?</dt>
+    <dd>Go to Settings → Privacy &amp; Security → Tracking on your iPhone. You can play the whole game either way.</dd>
+  </dl>
+</section>
+
+<footer>© 2026 頂 - ITADAKI -</footer>
+</div>
+</body>
+</html>

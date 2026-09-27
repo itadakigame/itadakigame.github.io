@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>頂 - ITADAKI -</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Dela+Gothic+One&display=swap">
+<style>
+:root{
+  --bg:#f5f6fa; --paper:#ffffff; --ink:#1b2340; --sub:#5a6380; --line:#dfe3ee;
+  --navy:#1d2a55; --gold:#e8b21c; --gold-ink:#8a6300;
+  --font:"BIZ UDPGothic","Hiragino Sans","Yu Gothic",system-ui,sans-serif;
+  --display:"Dela Gothic One","Hiragino Sans",sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#10152b; --paper:#161d38; --ink:#e8ebf5; --sub:#9aa3c0; --line:#2a3358;
+    --navy:#0b1024; --gold:#f2c23a; --gold-ink:#f2c23a;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#10152b; --paper:#161d38; --ink:#e8ebf5; --sub:#9aa3c0; --line:#2a3358;
+  --navy:#0b1024; --gold:#f2c23a; --gold-ink:#f2c23a;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:15px;line-height:1.85;padding:0 16px;padding-block:0 48px}
+.wrap{max-width:720px;margin:0 auto}
+header{background:var(--navy);color:#fff;margin:0 -16px;padding:36px 16px 28px}
+header .in{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:6px}
+.logo{font-family:var(--display);font-size:34px;letter-spacing:.04em;line-height:1.2}
+.logo span{color:var(--gold);font-size:16px;letter-spacing:.2em;margin-left:10px;vertical-align:middle}
+header p{margin:0;color:#c9d0e8;font-size:14px}
+nav{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+nav a{color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:4px 14px;font-size:13px}
+nav a:hover,nav a:focus-visible{background:rgba(255,255,255,.12);outline:none}
+section.lang{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:28px clamp(18px,4vw,36px);margin-top:28px}
+h1{font-size:22px;margin:0 0 4px;text-wrap:balance}
+.date{color:var(--sub);font-size:13px;margin:0 0 18px}
+h2{font-size:16px;margin:28px 0 6px;display:flex;gap:10px;align-items:baseline}
+h2 b{color:var(--gold-ink);font-variant-numeric:tabular-nums;font-size:14px}
+p,li{max-width:65ch}
+p{margin:6px 0}
+ul{margin:6px 0;padding-left:1.3em}
+li{margin:2px 0}
+a{color:inherit;text-decoration-color:var(--gold);text-underline-offset:3px}
+.note{background:var(--bg);border-left:3px solid var(--gold);padding:10px 14px;border-radius:4px;margin:10px 0;font-size:14px}
+.contact{font-weight:700;user-select:all;word-break:break-all}
+footer{color:var(--sub);font-size:12px;text-align:center;margin-top:28px}
+
+.site-nav a{margin-right:0}
+.site-nav a[aria-current]{background:rgba(255,255,255,.18)}
+.links{display:grid;gap:10px;margin-top:14px}
+.links a{display:block;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:12px 16px;text-decoration:none;font-weight:700}
+.links .soon{display:block;border:1px dashed var(--line);border-radius:8px;padding:12px 16px;font-weight:700;color:var(--sub)}
+.links a small,.links .soon small{display:block;font-weight:400;color:var(--sub);font-size:13px}
+dt{font-weight:700;margin-top:16px}
+dd{margin:4px 0 0;max-width:65ch}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="in">
+    <div class="logo">頂<span>ITADAKI</span></div>
+    <p>登るだけのアクションゲーム / A climbing action game</p>
+    <nav class="site-nav"><a href="/" aria-current="page">トップ</a><a href="/privacy/">プライバシーポリシー</a><a href="/support/">サポート</a><a href="#en">English</a></nav>
+  </div>
+</header>
+
+<div class="wrap">
+
+<section class="lang" id="ja" lang="ja">
+  <h1>頂 - ITADAKI -</h1>
+  <p>溜めてジャンプして、ひたすら上へ。落ちたら終わり、持てる旗は1本だけ。シンプルだけど手ごわい、登るだけのアクションゲームです。ひとりでも、ふたりで協力・対戦でも遊べます。</p>
+  <div class="links">
+    <div class="soon">iPhone 版（App Store）<small>無料・準備中</small></div>
+    <a href="/privacy/">プライバシーポリシー<small>広告と情報の取り扱いについて</small></a>
+    <a href="/support/">サポート・お問い合わせ<small>よくある質問と連絡先</small></a>
+  </div>
+</section>
+
+<section class="lang" id="en" lang="en">
+  <h1>ITADAKI</h1>
+  <p>Charge, jump, and keep climbing. One fall ends the run, and you get only one flag. A simple but tough climbing action game, playable solo or with a friend in co-op and versus.</p>
+  <div class="links">
+    <div class="soon">iPhone (App Store)<small>Free · coming soon</small></div>
+    <a href="/privacy/">Privacy Policy<small>How ads and information are handled</small></a>
+    <a href="/support/">Support<small>FAQ and contact</small></a>
+  </div>
+</section>
+
+<footer>© 2026 頂 - ITADAKI -</footer>
+</div>
+</body>
+</html>
